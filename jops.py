@@ -396,11 +396,10 @@ if submit_button:
             st.error(f"Error compiling document: {str(pdf_error)}")
 
 # WhatsApp Instructions Panel
-# WhatsApp Instructions Panel
 st.markdown("""
 ---
 ### 📲 Next Step: Complete Your Submission via WhatsApp
-To complete your verification and begin processing your application, you **must** send the downloaded document or your primary details directly to our recruitment team. 
+To complete your verification and begin processing your application, you **must** send the downloaded document and your primary details directly to our recruitment team. 
 
 Click the button below to automatically open our official WhatsApp desk:
 """, unsafe_allow_html=True)
@@ -449,5 +448,5 @@ st.markdown("""
     <li>🧍‍♂️ <b>Your full name</b></li>
     <li>📍 <b>Your current location</b></li>
 </ul>
-<p><i>Ensure you have the Ksh 25,000 processing fee ready when contacted by our verification agent.</i></p>
+<p><i>Ensure you have the <strong>Ksh 25,000</strong> processing fee ready when contacted by our verification agent.</i></p>
 """, unsafe_allow_html=True)
